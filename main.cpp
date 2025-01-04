@@ -1,4 +1,6 @@
 
+
+
 #include <iostream>
 #include <atomic>
 #include <termios.h>
@@ -7,7 +9,7 @@
 #include <chrono>
 #include "oldNoiseMaker.h"
 
-#define PI 3.14159265358979323846
+#define PI 3.14159265358979323846 // you wouldn't believe me if i told you, i wrote this myself in one go, yea
 
 std::atomic<double> frequency{0.0};
 std::atomic<bool> sustain{false};
